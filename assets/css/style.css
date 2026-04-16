@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    color: #38bdf8;
+    margin-bottom: 30px;
+}
+
+/* Formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: #0f172a;
+    color: white;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* Bouton publier */
+button {
+    background: #38bdf8;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+/* Posts */
+div {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.1);
+}
+
+h3 {
+    margin: 0;
+    color: #38bdf8;
+}
+
+p {
+    margin: 10px 0;
+    color: #0ea5e9;
+}
+
+.actions {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.actions a {
+    position: static;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.actions a.edit {
+    background: #22c55e;
+}
+
+.actions a.edit:hover {
+    background: #16a34a;
+}
+
+.actions a.delete {
+    background: #ef4444;
+}
+
+a:hover {
+    background: #dc2626;
+}
